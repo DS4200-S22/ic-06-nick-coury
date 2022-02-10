@@ -1,1 +1,32 @@
+style.css
 
+h1 {
+  align-content: center;
+  color: black; 
+  font-family: Arial;
+}
+
+body {
+  font-family: Arial;
+}
+
+.image-display {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-direction: row;
+  flex-wrap : wrap;
+
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: center;
+
+  gap: 10px 30px;
+
+}
